@@ -3,17 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{88A9999F-DCAF-4EA9-A127-EA6FCC26885C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{88A9999F-DCAF-4EA9-A127-EA6FCC26885C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{9DA86577-A096-4BE9-9769-BDC9DCDA1792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{9DA86577-A096-4BE9-9769-BDC9DCDA1792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Web\Auth\Auth.csproj", "{628A9B84-9EA9-442D-B5A0-894AF331C410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth", "Web\Auth\Auth.csproj", "{628A9B84-9EA9-442D-B5A0-894AF331C410}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{DAC54FCD-AD83-4425-B37E-5B3E079BFA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Web\Api\Api.csproj", "{817CCAC3-1793-4F0C-86A9-60DA0C52766E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Web\Api\Api.csproj", "{817CCAC3-1793-4F0C-86A9-60DA0C52766E}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "client-react", "Web\client-react\client-react.esproj", "{ADC33D4C-5353-41CC-82AE-537AF1DC5FEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{5EC0651E-17EA-4836-85DB-7851ED1CBB51}"
+	ProjectSection(SolutionItems) = preProject
+		docs\commands.md = docs\commands.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60206F01-6DF8-4134-B9DA-23E0AD34FE0C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
